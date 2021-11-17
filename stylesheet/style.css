@@ -1,15 +1,26 @@
 body {
-    background-color: aquamarine;
+    background-color: #EDB14A;
 }
 h1{
     text-align: center;
+    font-size: 50px;
 }
 p{
     text-align: center;
+    font-size: 25px;
 }
 h2{
     text-align: center;
+    font-size: 45px;
 }
-#button1{
+button{
     text-align: center;
+    padding: 15px 32px;
+    background-color:#979DA8 ;
+    text-decoration: none;
+}
+#button{
+    text-align: center;
+    border-style: inset;
+    border: black;
 }
