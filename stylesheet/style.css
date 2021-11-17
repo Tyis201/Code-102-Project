@@ -17,9 +17,10 @@ button{
     text-align: center;
     padding: 15px 32px;
     background-color:#979DA8 ;
-    border: none;
     text-decoration: none;
 }
 #button{
     text-align: center;
+    border-style: inset;
+    border: black;
 }
