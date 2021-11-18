@@ -12,5 +12,5 @@ else if (numb === "2"){
 }
 }
 
-// let numb = prompt ('After escaping to saftey you look around and realize you are more lost then you already were. After exploring for a little bit you find a rather larger trail that seems to follow somewhere, but you dont know where. You have two options you can either keep looking around and hope to find something new or you could hop on the trail and follow that 1 for keep looking around 2 for hop on the trail')
 
+// let numb = prompt ('After escaping to saftey you look around and realize you are more lost then you already were. After exploring for a little bit you find a rather larger trail that seems to follow somewhere, but you dont know where. You have two options you can either keep looking around and hope to find something new or you could hop on the trail and follow that 1 for keep looking around 2 for hop on the trail')
