@@ -18,9 +18,9 @@ button{
     padding: 15px 32px;
     background-color:#979DA8 ;
     text-decoration: none;
+    text-align: center;
 }
 #button{
-    text-align: center;
     border-style: inset;
     border: black;
 }
