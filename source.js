@@ -8,8 +8,8 @@ if (numb === "1") {
 }
 else if (numb === "2"){
    alert('You chose to ignore the spoon and continue on your journey. After exploring the whole hut you choose to walk outside. As soon as you walk outside a super spicky spider lunges out from the depths. Without something to hit it away with, it sticks to you and bites you. You get extremly sick from the poison and die a slow painful death');
-   document.write('You got ending 1 of 10')
+   document.write('<h1>You got ending 1 of 10</h1>')
 }
 }
-(go());
+
 
