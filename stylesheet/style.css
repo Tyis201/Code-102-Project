@@ -13,13 +13,13 @@ h2{
     text-align: center;
     font-size: 45px;
 }
-button{
+#go{
     text-align: center;
     padding: 15px 32px;
     background-color:#979DA8 ;
     text-decoration: none;
 }
-#button{
+#Button{
     text-align: center;
     border-style: inset;
     border: black;
