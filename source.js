@@ -29,7 +29,7 @@ if (secondthird === "1") {
     airplane();
 }
 else if (secondthird === "2") {
-    prompt ('You decide to hop on the trail and follow it for a while. A little ways down the trail you see a little bridge crossing a creek. Right when you get close to the bridge a troll jumps up from under the bridge and says "Answer this riddle and ill let you pass but get it wrong and youll regret your decision. The riddle is What can you catch but not throw')
+    // prompt ('You decide to hop on the trail and follow it for a while. A little ways down the trail you see a little bridge crossing a creek. Right when you get close to the bridge a troll jumps up from under the bridge and says "Answer this riddle and ill let you pass but get it wrong and youll regret your decision. The riddle is What can you catch but not throw')
     troll();
 }
 else if (numb > 2){
@@ -42,10 +42,18 @@ function airplane() {
 }
 
 function troll() {
- // let troll = prompt ('You decide to hop on the trail and follow it for a while. A little ways down the trail you see a little bridge crossing a creek. Right when you get close to the bridge a troll jumps up from under the bridge and says "Answer this riddle and ill let you pass but get it wrong and youll regret your decision. The riddle is What can you catch but not throw')
-  if (troll === "Cold") {
-      alert('You got it right... but i hungry')
-      document.write('You got ending 2/10')
+  let troll = prompt ('You decide to hop on the trail and follow it for a while. A little ways down the trail you see a little bridge crossing a creek. Right when you get close to the bridge a troll jumps up from under the bridge and says "Answer this riddle and ill let you pass but get it wrong and youll regret your decision. The riddle is What can you catch but not throw')
+  
+  if (troll = "Cold") {
+      alert('troll: "You got it right... but i hungry"')
+      document.write('<h1>You got ending 2/10</h1>')
   }
+
+else if (troll = "null") { 
+    alert('troll: "WRONGGGGG you got it wrong so i get to eat you"')
+    document.write('<h1>You got ending 3/10</h1>')
 }
+}
+}
+
 
