@@ -90,6 +90,9 @@ else if (leaveplane === "2"){
     alert('You decide to head to the right. After walking to the right for a little bit you hear footsteps behind you. You turn around to see a huge tall weird creature standing behind you. You start sprinting to run away and luckily your able to get away')
     rightway();
 }
+else if (numb > 2){
+    document.write('<h1>Idiot, we said 1 or 2</h1>')
+}
 }
 
 function rightway(){
@@ -100,6 +103,9 @@ if (rightway === "1"){
 }
 else if (rightway === "2"){
 rightrightway();
+}
+else if (numb > 2){
+    document.write('<h1>Idiot, we said 1 or 2</h1>')
 }
 }
 
@@ -114,6 +120,9 @@ else if (leftway === "2"){
     alert('You go down the right and followed it for a while. You end up slipping on a banana in the middle of the road and hit your head on a rock.')
     document.write('<h1>You get ending 7/10. "This aint Mario Cart... cmon now"</h1>')
 }
+else if (numb > 2){
+    document.write('<h1>Idiot, we said 1 or 2</h1>')
+}
 }
 
 function rightrightway(){
@@ -125,6 +134,9 @@ if (rightrightway === "1"){
 else if (rightrightway === "2"){
     alert('As you stand there and procrastinate going in or not a tree falls down and lands on top of you')
     document.write('<h1> You got ending 8/10. "Heads up"</h1>')
+}
+else if (numb > 2){
+    document.write('<h1>Idiot, we said 1 or 2</h1>')
 }
 }
 
@@ -140,6 +152,9 @@ function cardmaster(){
         alert('You pull the top card of the right deck and reveal a 8 of diamonds')
         eightofdiamonds();
     }
+    else if (numb > 2){
+        document.write('<h1>Idiot, we said 1 or 2</h1>')
+}
 }
 function eightofdiamonds(){
 let eightofdiamonds = prompt('After pulling the eight of diamonds you are glad it wasnt higher, but you still dont like the card. You must choose your next card the cardmaster says 1 for left 2 for right ')
@@ -151,6 +166,9 @@ if (eightofdiamonds === "1"){
 else if (eightofdiamonds === "2"){
     alert(' After picking up the top card of the right deck you are discourged to see a 5 of spades staring back at you')
     document.write('<h1>You got ending 9/10. "Wrong choice"</h1>')
+}
+else if (numb > 2){
+    document.write('<h1>Idiot, we said 1 or 2</h1>')
 }
 }
 
@@ -164,5 +182,8 @@ if (twoofdiamonds === "1"){
 else if (twoofdiamonds === "2"){
     alert('After picking up the top card on the right deck you are filled with joy to see that you pulled the Ace of Spades. The Cardmaster then tells you that this whole time you have been dreaming and since you won you must "WAKE UP"')
     document.write('<h1>"Congrats You Won" ending 10/10</h1>')
+}
+else if (numb > 2){
+    document.write('<h1>idiot, we said 1 or 2</h1>')
 }
 }
